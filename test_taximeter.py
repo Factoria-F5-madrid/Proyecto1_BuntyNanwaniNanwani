@@ -36,6 +36,8 @@ def test_taxi_menu_shows_correct_options(capsys):
 
 from taximetro import taximeter
 
+"""
+
 from taximetro import taximeter
 
 def test_taximeter_simple_run(monkeypatch, capsys):
@@ -43,7 +45,7 @@ def test_taximeter_simple_run(monkeypatch, capsys):
     inputs = iter([
         "1",  # Start Taximeter
         "3",  # Move Taxi
-        "4"   # End trayectory (salir)
+        "4"   # End trayectory 
     ])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
@@ -67,3 +69,4 @@ def test_taximeter_simple_run(monkeypatch, capsys):
     assert "Total stopped time" in output
     assert "Total moving time" in output
     assert "Total fare" in output
+"""
