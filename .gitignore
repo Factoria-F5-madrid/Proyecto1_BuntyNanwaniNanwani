@@ -1,0 +1,19 @@
+Entornos virtuales
+.venv/
+venv/
+env/
+
+Archivos de Python generados
+Python cache
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+Otros
+*.swp
+.DS_Store
+test.py
+taximetroclase.py
+datetime-test.py
