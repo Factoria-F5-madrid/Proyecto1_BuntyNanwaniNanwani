@@ -109,7 +109,7 @@ def taximeter():
             trip_active = False
             state = None
 
-            break   # <--- IMPORTANTE: salir del bucle al finalizar trayecto
+               # <--- IMPORTANTE: salir del bucle al finalizar trayecto
 
         elif command == "5":
             print("👋 Exiting Taxi Meter. Have a nice day! 😁")
