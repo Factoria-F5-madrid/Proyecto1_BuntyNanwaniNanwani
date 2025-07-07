@@ -27,7 +27,7 @@ def taxi_menu(available_options):
         if key in options_dict:
             print(options_dict[key])
 
-def taximeter():
+def taximeter(test_mode=False):
     clear_screen()
     print("  🙋‍♂️    Welcome to Taxi Meter   ")
 
@@ -109,7 +109,10 @@ def taximeter():
             trip_active = False
             state = None
 
-               # <--- IMPORTANTE: salir del bucle al finalizar trayecto
+            if test_mode:
+                break  # salir del bucle solo en modo test
+
+            
 
         elif command == "5":
             print("👋 Exiting Taxi Meter. Have a nice day! 😁")
