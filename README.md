@@ -8,7 +8,12 @@ Bienvenido a **Taxímetro**, un proyecto en Python que simula el funcionamiento 
 
 Este programa permite iniciar un trayecto y calcular automáticamente la tarifa en función del tiempo que el taxi permanece detenido o en movimiento.
 
+Está diseñado para ser **user friendly**, ofreciendo una experiencia sencilla y accesible mediante un menú interactivo y mensajes claros que guían al usuario paso a paso.
+
+---
+
 ### 🔹 Tarifas por tiempo:
+
 - **Tiempo detenido:** 0,02 € por segundo
 - **Tiempo en movimiento:** 0,05 € por segundo
 
